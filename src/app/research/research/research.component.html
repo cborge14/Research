@@ -1,0 +1,168 @@
+
+<section class="Research">
+    <article>
+        <h2>Questão 1</h2>
+        <h3>Você Costuma Estudar sozinho?</h3>
+        <i>Selecione uma resposta</i>
+        <div class="col-md-3">
+            <label for="Resposta"></label>
+            <div id="questao1" class="row">
+                <div >
+                    <select (change)="selectOpt($event)"
+                            class="form-select form-select-sm"
+                            aria-label=".form-select-sm example"
+                            style="width: 200px;" >
+                        <option selected> <i></i></option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select>
+                </div>
+                <p><span>You Selected: </span><b>{{chosenOpt}}</b></p>
+            </div>
+        </div>
+    </article>
+
+</section>
+
+<!-- 
+
+
+(change)="selectOpt($event)"
+
+   <section>
+    <div class="mb-3">
+        <label for="Q1" class="form-label">Questão 2</label> 
+        <div id="ansHelp" class="form-text">O que o motiva a buscar um conteudo para estudar?</div><br>
+        <input type="resposta" class="form-control" id="resp1" aria-describedby="RespHelp" cols="60" rows="5"> <br>
+        <button 
+            type="submit" 
+            class="btn btn-primary"
+            id="resp1">Submit
+        </button>
+    </div>
+   </section> -->
+    <!-- <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+</head>
+<body>
+    <header>
+        <h1>Self Learning Development Research</h1>
+    </header>
+    <section id="Q0">
+        <div>
+            <b>Questão 1 </b> <br><br>
+            Você Costuma estudar sozinho? <br>
+            <i>Selecione uma resposta</i> <br>
+            <select name="q0" id="selres" size="3" style="width: 90px;"> 
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <br>
+            <input type="button" value="Registrar" onclick="resp0()">
+            <input type="button" value="Limpar" id="limp" onclick="limpar()">
+            
+        
+        </div>
+        <br>
+        <div id="res0">
+            
+        </div>
+    </section>
+    <br>
+    <section id="Q1">
+        <div>
+            <b>Questão 2 </b> <br><br>
+            O que o motiva a buscar um conteudo para estudar? <br>
+            <i>Resposta:</i> <br>
+            <textarea name="resp1" id="resp1" cols="45" rows="5"></textarea><br>
+            <input type="button" value="Registrar" onclick="resp1()"> 
+            <input type="button" value="Limpar" onclick="limpar1()">
+            
+        </div>
+        <br>
+        <div id="res1">
+        
+        </div>
+    </section>
+    <br>
+    <section id="Q2">
+        <div>
+            <b>Questão 3 </b> <br><br>
+            Como você busca novos conteudos para aprender? <br>
+            <i>Resposta:</i><br>
+            <textarea name="resp2" id="resp2" cols="45" rows="5"></textarea><br>
+            <input type="button" value="Registrar" onclick="resp2()">
+            <input type="button" value="Limpar" onclick="limpar2()">
+        </div>
+        <br>
+        <div id="res2">
+        
+        </div>
+    </section>
+    <br>
+    <section id="Q3">
+        <div>
+            <b>Questão 4 </b> <br><br>
+            O que você gostaria de ver como ferramenta de aprendizagem? <br>
+            <i>Resposta:</i><br>
+            <textarea name="resp3" id="resp3" cols="45" rows="5"></textarea><br>
+            <input type="button" value="Registrar" onclick="resp3()">
+            <input type="button" value="Limpar" onclick="limpar3()">
+        </div>
+        <br>
+        <div id="res3">
+            
+        </div>
+    </section>
+    <br>
+    <section id="Q4">
+        <div>
+            <b>Questão 5 </b> <br><br>
+            Existe alguma ação da liderança que estimule o seu desenvolvimento? Pode dar exemplos?<br>
+            <i>Resposta:</i><br>
+            <textarea name="resp4" id="resp4" cols="45" rows="5"></textarea><br>
+            <br>
+            <input type="button" value="Registrar" onclick="resp4()">
+            <input type="button" value="limpar" onclick="limpar4()"> 
+        </div>
+        <br>
+        <div id="res4">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Universidade Corporativa em Rede</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- <div>
+    <b>Questão 1 </b> <br><br>
+    Você Costuma estudar sozinho? <br>
+    <i>Selecione uma resposta</i> <br>
+    
+                    <label class="radio-inline">class="col-sm-4" *ngFor="let item of simNaoOp"
+                        <input type="radio"  [value]="item.valor"> {{ item.desc}}
+                    </label>
+    <br>
+    <input type="button" value="Registrar" onclick="resp0()">
+    <input type="button" value="Limpar" id="limp" onclick="limpar()">
+    
+
+</div> -->
